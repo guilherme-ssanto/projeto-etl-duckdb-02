@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "projeto-etl-duckdb-02"
+version = "0.1.0"
+description = ""
+authors = ["guilherme-ssanto <guilhermesantossilva@id.uff.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.38.0"
+gdown = "^5.2.0"
+duckdb = "^1.0.0"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+psycopg2 = "^2.9.9"
+sqlalchemy = "^2.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
